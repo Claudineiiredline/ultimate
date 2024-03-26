@@ -1,8 +1,13 @@
 import { NavBarContainer, NavBarContent } from "./styles";
+import { FaBook } from "react-icons/fa";
+import { FaBookAtlas } from "react-icons/fa6";
 import { GiTrophy } from "react-icons/gi";
+import { Link } from "react-router-dom";
+import { FaBan } from "react-icons/fa6";
+import { MdForum } from "react-icons/md";
 import { BsDiscord } from "react-icons/bs";
 import { IoInformationCircle } from "react-icons/io5";
-import { HomePageInfo } from "../HomePageInfoBox/HomePageInfoBox";
+import { HomePageContent } from "../HomePageContent/HomePageContent";
 
 
 export function NavBar() {
@@ -21,7 +26,8 @@ export function NavBar() {
                     </li>
                 </ul>
             </NavBarContent>
-            <HomePageInfo/>
+            
+        <HomePageContent/>
         </NavBarContainer>
     )
 }

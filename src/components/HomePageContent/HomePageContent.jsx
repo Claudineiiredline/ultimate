@@ -1,8 +1,9 @@
 import { HomePageContentContainer, HomePageContentBox } from "./styles";
 
-export function HomePageInfo(){
+
+export function HomePageContent(){
     return (
-            <HomePageContentContainer>
+        <HomePageContentContainer>
             <HomePageContentBox>
         <h1>teste</h1>
             </HomePageContentBox>
